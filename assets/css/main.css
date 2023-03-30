@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    @apply  bg-gray-default font-normal text-sm;
+    
+} */
+
+
+
+/* @layer base {
+    html {
+      font-family: Comfortaa,Raleway,cursive;
+    }
+    
+  }  */
+  @layer components {
+    body {
+        font-family: Comfortaa, Raleway, cursive;
+        padding: 0 !important;
+        background-color: #f8f9fa;
+        margin: 0;
+        color: #333;
+        position: relative;
+        font-size: 21px;
+    }
+    
+    
+  }
